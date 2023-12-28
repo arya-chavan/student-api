@@ -7,7 +7,7 @@ const port= 3000;
 
 app.use(express.json());
 
-app.listen(port,()=> console.log(`app listening on port ${port}`));
+app.listen(port,()=> console.log(`app listening on port ${port}, i am ruuning on http://localhost:3000`));
 
 app.use('/api/v1/students',studentRoutes);
     
